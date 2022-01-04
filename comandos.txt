@@ -19,7 +19,11 @@ asi agregamos los archivos al git repository
 
 
 git rm --cached nombre_archivo
-devuelve un archivo del staging area al working directory
+elimina un archivo del staging area al working directory
+
+
+git rm --force nombre_archivo
+elimina el archivo del staging area y del disco duro
 
 
 cat nombre_archivo
@@ -49,3 +53,7 @@ asi vemos los cambios que se han realizado sobre un archivo y el codigo del ulti
 git diff codigo_commit  codigo_commit nombre_archivo
 asi vemos la diferencia de un archivo entre dos commits diferentes
 
+
+git reset codigo_commit  --hard
+asi volvemos en el tiempo a un commit sin poder volver al futuro
+este comando borra toda la informacion y de los commits posteriores al que volvemos
