@@ -1,10 +1,14 @@
-working directory:
+Cuando escribimos el comando git init se crea crea un area en memoria que se llama sataging
+y se crea el repositorio que es la caprtea .git
+
+working directory: 
 
 
-staging area:
+staging area: es donde se guardan los elementos cuando escribimos git add .
 
 
-git directory:
+git repository: cuando escribimos el comando git commit -m "" se guardan todos los cambios
+aca se guardan todas las versiones de nuestros de nuestro proyecto
 
 
 

@@ -34,8 +34,18 @@ git log nombre_archivo
 asi vemos todos los commits sobre un archivo
 
 
+git log --oneline 
+asi vemos todos los commits realizados de manera resumida
+
+
+git log --oneline nombre_archivo
+asi vemos los commits realizados sobre un archivo de manera resumida
+
+
 git show nombre_archivo
 asi vemos los cambios que se han realizado sobre un archivo y el codigo del ultimo commit
 
 
+git diff codigo_commit  codigo_commit nombre_archivo
+asi vemos la diferencia de un archivo entre dos commits diferentes
 
