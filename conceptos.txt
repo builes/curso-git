@@ -1,0 +1,19 @@
+working directory:
+
+
+staging area:
+
+
+git directory:
+
+
+
+
+Por defecto nos encontramos en la rama master
+Cada que realizamos un commit estamos creamos una nueva version de nuestro proyecto
+
+
+Una rama es una copia de la rama master con otro nombre en una version en especifico
+
+
+merge es cuando unimos dos ramas de nuestro proyecto
