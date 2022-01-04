@@ -1,0 +1,35 @@
+working directory:
+
+
+staging area:
+
+
+git directory:
+
+
+git config --list
+asi vemos las configuraciones de git
+
+git config --global user.name "name"
+asi configramos el nombre de usuaario
+
+git config --global user.email "email"
+asi configuramos el correo
+
+git status
+nos muestra que archivos estan en el working directory
+
+
+git add .
+los archivos que se encuentren en el working directory los pasa al staging area
+
+git commit -m "descripcion del commit" 
+asi agregamos los archivos al git repository
+
+
+git rm --cached nombre_archivo
+devuelve un archivo del staging area al working directory
+
+
+cat nombre_archivo
+asi vemos el contenido del archivo por consola
