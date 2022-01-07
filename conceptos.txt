@@ -18,6 +18,9 @@ Cada que realizamos un commit estamos creamos una nueva version de nuestro proye
 
 
 Una rama es una copia de la rama master con otro nombre en una version en especifico
+se usan para no afectar la rama principal que es master
+cuando se crea una rama nueva se crea una copia del ultimo commit realizado
+todos los cambios que se hagan en la rama no se van a ver en la rama master hasta que se haga un merge
 
 
 merge es cuando unimos dos ramas de nuestro proyecto

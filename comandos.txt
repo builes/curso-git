@@ -20,6 +20,7 @@ asi agregamos los archivos al git repository
 
 git commit -am "descripcion commit"
 esto nos hace el git add . y git commit a la vez
+esto funciona solamente con los archivos a los que se le habia hecho git add . previamente
 
 
 git rm --cached nombre_archivo
@@ -70,3 +71,5 @@ este comando borra toda la informacion y de los commits posteriores al que volve
 git checkout codigo_commit nombre_archivo
 asi vemos la version de un archivo en un commit anterior
 podemos ir a una version anterior y cambiarla haciendo un git add y luego git commit
+
+
