@@ -18,6 +18,10 @@ git commit -m "descripcion del commit"
 asi agregamos los archivos al git repository
 
 
+git commit -am "descripcion commit"
+esto nos hace el git add . y git commit a la vez
+
+
 git rm --cached nombre_archivo
 elimina un archivo del staging area al working directory
 
@@ -46,6 +50,10 @@ git log --oneline nombre_archivo
 asi vemos los commits realizados sobre un archivo de manera resumida
 
 
+git log --stat 
+nos dice en cada commit que archivos se eliminaron y cuales se agregaron
+
+
 git show nombre_archivo
 asi vemos los cambios que se han realizado sobre un archivo y el codigo del ultimo commit
 
@@ -57,3 +65,8 @@ asi vemos la diferencia de un archivo entre dos commits diferentes
 git reset codigo_commit  --hard
 asi volvemos en el tiempo a un commit sin poder volver al futuro
 este comando borra toda la informacion y de los commits posteriores al que volvemos
+
+
+git checkout codigo_commit nombre_archivo
+asi vemos la version de un archivo en un commit anterior
+podemos ir a una version anterior y cambiarla haciendo un git add y luego git commit
