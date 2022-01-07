@@ -9,7 +9,7 @@ body {
 #container {
   width: 70%;
   padding: 1em;
-  text-align: center;
+  /* text-align: center; */
   border: 1px solid #ddd;
   margin: 0 auto;
 }

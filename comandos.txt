@@ -21,6 +21,7 @@ asi agregamos los archivos al git repository
 git commit -am "descripcion commit"
 esto nos hace el git add . y git commit a la vez
 esto funciona solamente con los archivos a los que se le habia hecho git add . previamente
+no funciona con archivos nuevos que no se le hayan hecho git add .
 
 
 git rm --cached nombre_archivo
@@ -73,3 +74,14 @@ asi vemos la version de un archivo en un commit anterior
 podemos ir a una version anterior y cambiarla haciendo un git add y luego git commit
 
 
+git branch nombre_rama
+Asi creamos una nueva rama
+cuando se crea una rama nueva se crea una copia del ultimo commit realizado
+
+
+git checkout nombre_rama
+asi cambiamos de rama
+
+
+git branch -a
+esto nos muestra todas las ramas que hay en el proyecto y nos muestra en cual estamos ubicados
