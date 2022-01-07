@@ -24,3 +24,6 @@ todos los cambios que se hagan en la rama no se van a ver en la rama master hast
 
 
 merge es cuando unimos dos ramas de nuestro proyecto
+para hacer un merge debemos de hacerlo desde la rama principal
+cuando se hace un merge se genera un commit nuevo fusionando los dos ultimos commits de cada rama
+

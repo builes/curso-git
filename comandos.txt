@@ -85,3 +85,30 @@ asi cambiamos de rama
 
 git branch
 esto nos muestra todas las ramas que hay en el proyecto y nos muestra en cual estamos ubicados
+
+
+
+
+//------------------------------------------------------//------------------------------------
+pasos para subir elementos a git hub y traer elementos de github al repositorio local
+para hacer un push primero debemos hacer un git fetch o un git pull
+
+
+git branch -M main
+Asi renombramos la rama en la que estemos
+
+
+git remote add origin enlace_remoto
+asi enlazamos el repositorio local con el reposito de github
+
+
+git pull origin main --allow-unrelated-histories
+asi traemos lo del repositorio remoto al local
+
+git push -u origin main
+asi enviamos los commits del repositorio local al repositorio global
+
+
+
+git remote -v
+asi vemos los repositorios en la nube con los que esta enlazado
